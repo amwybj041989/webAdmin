@@ -64,6 +64,10 @@ export default new Router({
                 {
                     path: '/finishTaskinfo',
                     component: resolve => require(['../components/page/task/FinishTaskInfo.vue'], resolve) //已完成任务信息页面
+                },
+                {
+                    path: '/operation',
+                    component: resolve => require(['../components/page/sidebar/operation.vue'], resolve) //已完成任务信息页面
                 }
             ]
         },
